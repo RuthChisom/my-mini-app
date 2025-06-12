@@ -12,7 +12,7 @@ export async function GET(req: NextRequest) {
 
         const metadata: Metadata = {
             url: "https://sherry.social", // Your main website URL
-            icon: "hhttps://drive.google.com/uc?export=view&id=1S-S6BzeV52cMsWuR6JAOTkKxHRlYuM9K", // Your app icon URL
+            icon: "https://drive.google.com/uc?export=view&id=1S-S6BzeV52cMsWuR6JAOTkKxHRlYuM9K", // Your app icon URL
             title: "Timestamped Message", // Title that will appear on platforms
             baseUrl: serverUrl, // Base URL where your app is hosted
             description: "Store a message with an optimized timestamp calculated by our algorithm",
